@@ -5,7 +5,7 @@ const path = require('path')
 const assert = require('yeoman-assert')
 const helpers = require('yeoman-test')
 
-describe('generator-react-component:app', () => {
+describe('generator-rcmp:app', () => {
   before(() => {
     return helpers.run(path.join(__dirname, '../generators/app'))
       .withPrompts({

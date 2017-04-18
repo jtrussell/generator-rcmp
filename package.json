@@ -1,8 +1,8 @@
 {
-  "name": "@jtrussell/generator-react-component",
+  "name": "generator-rcmp",
   "version": "0.7.5",
   "description": "A component generator for React",
-  "homepage": "https://github.com/jtrussell/generator-react-component",
+  "homepage": "https://github.com/jtrussell/generator-rcmp",
   "author": {
     "name": "jtrussell",
     "email": "jus.russell@gmail.com"
@@ -35,7 +35,7 @@
     "yeoman-assert": "^2.2.1",
     "yeoman-test": "^1.6.0"
   },
-  "repository": "jtrussell/generator-react-component",
+  "repository": "jtrussell/generator-rcmp",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
