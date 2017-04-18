@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>A Fancy Demo for <%= moduleName %></title>
+        <meta name="description" content="Demos for a React thingy.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Vendor stuff -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+
+        <!-- Custom styles -->
+        <link rel="stylesheet" href="./pages.css">
+    </head>
+    <body>
+      <div class="container">
+        <h1>A Fancy Demo for <%= moduleName %></h1>
+        <div id="demo0"></div>
+      </div>
+
+      <!-- Our vendor stuff -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.24.0/babel.min.js" type="text/javascript" charset="utf-8"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.5.4/react.js" type="text/javascript" charset="utf-8"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.5.4/react-dom.js" type="text/javascript" charset="utf-8"></script>
+
+      <!-- Our built component -->
+      <script src="./lib.js" type="text/javascript" charset="utf-8"></script>
+
+      <!-- Scripts for this demo page, inlined because so we don't require a
+        server to use with babel-standalone -->
+      <script type="text/babel" charset="utf-8">
+        ReactDOM.render(
+          <<%= className %> moniker='plucky hero' />,
+          document.getElementById('demo0')
+        )
+      </script>
+    </body>
+</html>
+
