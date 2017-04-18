@@ -40,7 +40,6 @@
     "react": "^15.5.0"
   },
   "devDependencies": {
-    "@jtrussell/generator-react-component": "^0.7.5",
     "autoprefixer": "^6.7.6",
     "babel-eslint": "^7.2.1",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
